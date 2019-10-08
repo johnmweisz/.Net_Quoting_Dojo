@@ -1,0 +1,8 @@
+@{
+    foreach(var quote in ViewBag.Quotes)
+    {
+        <p>@quote["name"]</p>
+        <p>@quote["quote"]</p>
+        <p>@quote["created_at"]</p>
+    }
+}
